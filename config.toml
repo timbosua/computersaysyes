@@ -23,7 +23,7 @@ pygmentsCodefencesGuessSyntax = true
   delayDisqus = true
   showRelatedPosts = true
 
-[Author]
+[Params.Author]
   name = "Tim Bosua"
   website = "computersaysyes.nl"
   email = "tim@computersaysyes.nl"
