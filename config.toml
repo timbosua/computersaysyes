@@ -2,6 +2,7 @@ baseurl = "https://www.computersaysyes.nl"
 DefaultContentLanguage = "en"
 title = ""
 theme = "beautifulhugo"
+enableEmoji = true
 pygmentsStyle = "trac"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
@@ -19,7 +20,7 @@ pygmentsCodefencesGuessSyntax = true
   readingTime = false
   wordCount = false
   useHLJS = true
-  socialShare = true
+  socialShare = false
   delayDisqus = true
   showRelatedPosts = true
 
@@ -36,7 +37,7 @@ pygmentsCodefencesGuessSyntax = true
 [[menu.main]]
     parent = "over"
     name = "Over"
-    url = "post/2023-10-17-over"
+    url = "page/about"
     weight = 1
 
 [[menu.main]]
