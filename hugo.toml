@@ -8,14 +8,14 @@ pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 
-[Params]
+[params]
   subtitle = "Welcome to Computer Says Yes!"
   mainSections = ["post","posts"]
-  logo = "img/logo_small.png" # Expecting square dimensions
+  logo = "img/logo_small.png"
   favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
   commit = true
-  rss = true
+  rss = false
   comments = true
   readingTime = false
   wordCount = false
@@ -23,35 +23,26 @@ pygmentsCodefencesGuessSyntax = true
   socialShare = false
   delayDisqus = true
   showRelatedPosts = true
-
-[Params.Author]
-  name = "Tim Bosua"
-  website = "computersaysyes.nl"
-  email = "tim@computersaysyes.nl"
+    [params.contact]
+        name = "Tim Bosua"
+        website = "computersaysyes.nl"
+        email = "tim@computersaysyes.nl"
+        phone = '+31 6 27 01 67 98'
 
 [[menu.main]]
-    name = "Blog"
-    url = ""
+    parent = "over"
+    name = "Over mij"
+    url = "page/about"
     weight = 1
 
 [[menu.main]]
     parent = "over"
-    name = "Over"
-    url = "page/about"
+    name = "Over CSY"
+    url = "post/2023-10-17-over"
     weight = 1
 
 [[menu.main]]
     identifier = "welkom"
     name = "Welkom"
+    url = "post/2024-04-03-welkom"
     weight = 2
-
-[[menu.main]]
-    parent = "welkom"
-    name = "Welkom"
-    url = "post/2023-10-05-welkom"
-    weight = 1
-
-[[menu.main]]
-    name = "Tags"
-    url = "tags"
-    weight = 3
