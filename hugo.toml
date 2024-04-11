@@ -3,10 +3,15 @@ DefaultContentLanguage = "en"
 title = ""
 theme = "beautifulhugo"
 enableEmoji = true
-pygmentsStyle = "trac"
+pygmentsStyle = "monokai"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
+paginate = 3
+enableInlineShortcodes = true
+enableGitInfo = true
+enableRobotsTXT = true
+copyright = ""
 
 [params]
   subtitle = "Welcome to Computer Says Yes!"
@@ -28,11 +33,24 @@ pygmentsCodefencesGuessSyntax = true
         website = "computersaysyes.nl"
         email = "tim@computersaysyes.nl"
         phone = '+31 6 27 01 67 98'
+    [params.copyright]
+        prefix = ""
+        holder = "Tim Bosua"
+        startYear = "2017"
+        suffix = ""
+    [params.info]
+        title404 = "Deze pagina bestaat niet!"
 
 [[menu.main]]
     parent = "over"
     name = "Over mij"
     url = "page/about"
+    weight = 1
+
+[[menu.main]]
+    parent = "over"
+    name = "Contact"
+    url = "post/2024-04-09-contact"
     weight = 1
 
 [[menu.main]]
