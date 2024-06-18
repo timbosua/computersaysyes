@@ -11,7 +11,7 @@ paginate = 3
 enableInlineShortcodes = true
 enableGitInfo = true
 enableRobotsTXT = true
-copyright = ""
+selfHosted = true
 
 [params]
   subtitle = "Welcome to Computer Says Yes!"
@@ -28,6 +28,7 @@ copyright = ""
   socialShare = false
   delayDisqus = true
   showRelatedPosts = true
+  since = "2017"
     [params.contact]
         name = "Tim Bosua"
         website = "computersaysyes.nl"
@@ -40,6 +41,9 @@ copyright = ""
         suffix = ""
     [params.info]
         title404 = "Deze pagina bestaat niet!"
+
+[author]
+  name = "Tim Bosua"
 
 [[menu.main]]
     parent = "over"
