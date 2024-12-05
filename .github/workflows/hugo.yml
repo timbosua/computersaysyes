@@ -41,6 +41,8 @@ jobs:
         run: sudo apt update
       - name: Install snap
         run: sudo apt install snapd -y
+      - name: Activate snap
+        run: sudo service snapd start
       - name: Install Dart Sass
         run: sudo snap install dart-sass
       - name: Checkout
