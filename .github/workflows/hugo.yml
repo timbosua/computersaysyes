@@ -42,7 +42,7 @@ jobs:
       - name: Install snap
         run: sudo apt install snapd -y
       - name: Activate snap
-        run: sudo service snapd start
+        run: sudo systemctl start snapd
       - name: Install Dart Sass
         run: sudo snap install dart-sass
       - name: Checkout
