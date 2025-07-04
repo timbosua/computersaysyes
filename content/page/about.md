@@ -4,7 +4,7 @@ date: 2023-10-05
 comments: false
 ---
 
-Mijn naam is Tim Bosua, woon in Haarlem met kat, vrouw en kind.
+Mijn naam is Tim Bosua, woon in Haarlem met kat, vrouw en kinderen.
 
 - Muziek en festivals ben ik gek op
 - Je kunt mij vinden achter de bar bij Patronaat in Haarlem
