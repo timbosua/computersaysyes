@@ -7,7 +7,7 @@ pygmentsStyle = "monokai"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
-paginate = 3
+pagination.pagerSize = 3
 enableInlineShortcodes = true
 enableGitInfo = true
 enableRobotsTXT = true
@@ -29,6 +29,8 @@ selfHosted = true
   delayDisqus = true
   showRelatedPosts = true
   since = "2017"
+    [params.author]
+        name = "Tim Bosua"
     [params.contact]
         name = "Tim Bosua"
         website = "computersaysyes.nl"
@@ -41,9 +43,6 @@ selfHosted = true
         suffix = ""
     [params.info]
         title404 = "Deze pagina bestaat niet!"
-
-[author]
-  name = "Tim Bosua"
 
 [[menu.main]]
     parent = "over"
