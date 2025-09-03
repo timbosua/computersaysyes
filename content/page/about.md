@@ -8,6 +8,6 @@ Mijn naam is Tim Bosua, woon in Haarlem met kat, vrouw en kinderen.
 
 - Muziek en festivals ben ik gek op
 - Je kunt mij vinden achter de bar bij Patronaat in Haarlem
-- Ik werk als DevOps Consultant bij Incentro in Amsterdam
+- Ik werk als DevOps Engineer bij Ebicus in Haarlem
 - Hou veel van zingen
 - En van koken en bakken

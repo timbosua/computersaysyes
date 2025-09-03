@@ -39,6 +39,8 @@ jobs:
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
       - name: update apt
         run: sudo apt update
+      - name: update apt
+        run: sudo apt upgrade -y
       - name: Checkout
         uses: actions/checkout@v4
         with:
