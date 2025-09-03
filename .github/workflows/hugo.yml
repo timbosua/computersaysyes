@@ -29,9 +29,9 @@ defaults:
 jobs:
   # Build job
   build:
-    runs-on: arc-runner-set
+    runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.128.0
+      HUGO_VERSION: 0.147.9
     steps:
       - name: Install Hugo CLI
         run: |
@@ -39,12 +39,8 @@ jobs:
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
       - name: update apt
         run: sudo apt update
-      - name: Install snap
-        run: sudo apt install snapd -y
-      - name: Activate snap
-        run: sudo systemctl start snapd
-      - name: Install Dart Sass
-        run: sudo snap install dart-sass
+      - name: update apt
+        run: sudo apt upgrade -y
       - name: Checkout
         uses: actions/checkout@v4
         with:
@@ -72,7 +68,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: arc-runner-set
+    runs-on: ubuntu-24.04
     needs: build
     steps:
       - name: Deploy to GitHub Pages
