@@ -1,69 +1,48 @@
-baseurl = "https://www.computersaysyes.nl"
-DefaultContentLanguage = "en"
+baseURL = "https://www.computersaysyes.nl"
 title = ""
-theme = "beautifulhugo"
+theme = "hugo-coder"
+defaultContentLanguage = "en"
 enableEmoji = true
-pygmentsStyle = "monokai"
-pygmentsUseClasses = true
-pygmentsCodeFences = true
-pygmentsCodefencesGuessSyntax = true
-pagination.pagerSize = 3
-enableInlineShortcodes = true
-enableGitInfo = true
-enableRobotsTXT = true
-selfHosted = true
 
 [params]
-  subtitle = "Welcome to Computer Says Yes!"
-  mainSections = ["post","posts"]
-  logo = "img/logo_small.png"
-  favicon = "img/favicon.ico"
-  dateFormat = "January 2, 2006"
-  commit = true
-  rss = false
-  comments = true
-  readingTime = false
-  wordCount = false
-  useHLJS = true
-  socialShare = false
-  delayDisqus = true
-  showRelatedPosts = true
-  since = "2017"
-    [params.author]
-        name = "Tim Bosua"
-    [params.contact]
-        name = "Tim Bosua"
-        website = "computersaysyes.nl"
-        email = "tim@computersaysyes.nl"
-        phone = '+31 6 27 01 67 98'
-    [params.copyright]
-        prefix = ""
-        holder = "Tim Bosua"
-        startYear = "2017"
-        suffix = ""
-    [params.info]
-        title404 = "Deze pagina bestaat niet!"
+author = "Computer Says Yes"
+info = ["Welkom bij Computer Says Yes!"]
+subtitle = "Welcome to Computer Says Yes!"
+colorScheme = "auto"
+avatarURL = "img/logo_small.png"
+favicon = "img/favicon.ico"
+dateFormat = "October 6, 2026"
+since = "2017"
 
-[[menu.main]]
-    parent = "over"
-    name = "Over mij"
-    url = "page/about"
-    weight = 1
+[params.contact]
+name = "Tim Bosua"
+website = "computersaysyes.nl"
+email = "tim@computersaysyes.nl"
+phone = '+31 6 27 01 67 98'
 
-[[menu.main]]
-    parent = "over"
-    name = "Contact"
-    url = "post/2024-04-09-contact"
-    weight = 1
+[params.copyright]
+prefix = ""
+holder = "Tim Bosua"
+startYear = "2017"
+suffix = ""
 
-[[menu.main]]
-    parent = "over"
-    name = "Over CSY"
-    url = "post/2023-10-17-over"
-    weight = 1
+[[params.social]]
+name = "Github"
+icon = "fa-brands fa-github fa-2x"
+weight = 1
+url = "https://github.com/timbosua"
 
-[[menu.main]]
-    identifier = "welkom"
-    name = "Welkom"
-    url = "post/2024-04-03-welkom"
-    weight = 2
+[[languages.en.menu.main]]
+name = "Over"
+weight = 1
+url = "about/"
+
+[[languages.en.menu.main]]
+name = "Projecten"
+weight = 2
+url = "projects/"
+
+[[languages.en.menu.main]]
+name = "Contact"
+weight = 3
+url = "contact/"
